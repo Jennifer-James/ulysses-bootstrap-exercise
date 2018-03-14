@@ -1,0 +1,61 @@
+html, body {
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline;
+  margin: 0;
+}
+
+#logo-container {
+  background-color: #fff;
+  margin-top: 50px;
+  height: 50px;
+  /*position: relative;*/
+  /*border: 1px solid #000;*/
+}
+
+#logo {
+  bottom: 28px;
+  left: 42vw;
+  position: relative;
+  height: 105px;
+}
+
+.anton {
+  font-family: 'Anton', sans-serif;
+}
+
+.titillium-web {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.nav-anchor {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:focus {
+  color: black;
+}
+
+.circle {
+  border: 8px solid #fff;
+  height: 50%;
+  border-radius: 50%;
+  display: inline;
+}
