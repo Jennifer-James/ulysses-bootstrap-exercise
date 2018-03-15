@@ -1,12 +1,29 @@
 html, body {
   background-color: #f0f0f0;
-  box-sizing: border-box;
   height: 100%;
+}
+
+* {
+  text-align: center;
+  box-sizing: border-box;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+#nav-and-subtitle {
+
+}
+
+#codeup-design {
+  text-align: center;
+}
+
+#nav-container {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .nav-item {
@@ -24,7 +41,7 @@ ul {
 
 #logo {
   bottom: 28px;
-  left: 42vw;
+  /*left: 45vw;*/
   position: relative;
   height: 105px;
 }
@@ -33,8 +50,8 @@ ul {
   font-family: 'Anton', sans-serif;
 }
 
-.titillium-web {
-  font-family: 'Titillium Web', sans-serif;
+.abel {
+  font-family: 'Abel', sans-serif;
 }
 
 .nav-anchor {
@@ -54,8 +71,28 @@ a:focus {
 }
 
 .circle {
+  margin: 5px;
+  text-align: center;
+  color: #fff;
   border: 8px solid #fff;
   height: 50%;
   border-radius: 50%;
   display: inline;
 }
+
+#blue {
+  background-color: #00aba9;
+}
+
+#red {
+  background-color: #e6563b;
+}
+
+#orange {
+  background-color: #eb9d3a;
+}
+
+#green {
+  background-color: #7cb06c;
+}
+
