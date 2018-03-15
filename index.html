@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Exercise</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
@@ -14,19 +15,19 @@
   <img id="logo" src="img/logo.png" alt="logo">
 </div>
 
-<div id="nav-and-subtitle">
+<div id="nav-and-subtitle" class="row">
   <h3 id="codeup-design" class="abel">codeup design</h3>
-  <ul id="nav-container">
-    <li class="nav-item">
+  <ul id="nav-container" class="row col-xs-10">
+    <li class="nav-item col-xs-3">
       <a class="abel nav-anchor" href="">SERVICES</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item col-xs-3">
       <a class="abel nav-anchor" href="">WORK</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item col-xs-3">
       <a class="abel nav-anchor" href="">BLOG</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item col-xs-3">
       <a class="abel nav-anchor" href="">CONTACT</a>
     </li>
   </ul>
@@ -37,20 +38,24 @@
 
 <div id="circles-container">
   <div class="row">
-    <div class="red circle col-xs-5">
-      <h1 class="anton">Design</h1>
-    </div>
-    <div class="orange circle col-xs-5">
-      <h1 class="anton">Develop</h1>
+    <div class="interior-circle-container">
+      <div class="red circle col-xs-5 img-responsive img-circle">
+        <h1 class="anton">Design</h1>
+      </div>
+      <div class="orange circle col-xs-5">
+        <h1 class="anton">Develop</h1>
+      </div>
     </div>
   </div>
 
   <div class="row">
-    <div class="green circle col-xs-5">
-      <h1 class="anton">Support</h1>
-    </div>
-    <div class="blue circle col-xs-5">
-      <h1 class="anton">Host</h1>
+    <div class="interior-circle-container">
+      <div class="green circle col-xs-5">
+        <h1 class="anton">Support</h1>
+      </div>
+      <div class="blue circle col-xs-5">
+        <h1 class="anton">Host</h1>
+      </div>
     </div>
   </div>
 
@@ -70,7 +75,7 @@
   </div>
 </div>
 
-<div>
+<div class="hidden-sm">
   <img src="img/macbook.jpg" alt="">
   <div class="row">
     <span class="col-xs-4">Featured Project</span>
@@ -113,21 +118,21 @@
   <span>The Last</span>
   <div  class="row">
     <img class="col-md-3" src="img/mobile-phone.jpg" alt="mobile phone">
-    <h1 class="col-md-9"></h1>
+    <h1 class="col-md-9">THE ADMIN BAR AND ABSOLUTE POSITIONING</h1>
   </div>
 
   <div  class="row">
     <img class="col-md-3" src="img/head.jpg" alt="head">
-    <h1 class="col-md-9"></h1>
+    <h1 class="col-md-9">NIBBLER AWESOME WEBSITE TESTING</h1>
   </div>
 
   <div  class="row">
     <img class="col-md-3" src="img/ipad.jpg" alt="ipad">
-    <h1 class="col-md-9"></h1>
+    <h1 class="col-md-9">HOW TO GET GOOGLE TO LIKE YOU</h1>
   </div>
 
     <div>
-      <img src="" alt="">
+      <img src="img/twitter.svg" alt="">
       <span>LAST TWEET</span>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim error harum illum incidunt ipsum mollitia nisi sint. Adipisci iste iure neque ut voluptatibus! Asperiores dignissimos, perferendis? Cumque modi porro quis.</p>
     </div>

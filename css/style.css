@@ -1,11 +1,26 @@
+@media screen and (max-width: 576px) {
+  #logo {
+    position: relative;
+    bottom: 45%;
+    height: 200px;
+    width: 200px;
+  }
+}
+
 html, body {
   background-color: #f0f0f0;
   height: 100%;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   text-align: center;
   box-sizing: border-box;
+}
+
+img {
+  width: 100%;
 }
 
 ul {
@@ -14,15 +29,18 @@ ul {
 }
 
 #nav-and-subtitle {
-
+  margin: 0;
 }
 
 #codeup-design {
-  text-align: center;
+  margin: 0 0 15px 0;
+  font-size: 3.2em;
 }
 
 #nav-container {
-  text-align: center;
+  padding: 0;
+  display: inline;
+  /*font-size: 2.2em;*/
   margin: 0 auto;
 }
 
@@ -33,17 +51,8 @@ ul {
 
 #logo-container {
   background-color: #fff;
-  margin-top: 50px;
-  height: 50px;
-  /*position: relative;*/
-  /*border: 1px solid #000;*/
-}
-
-#logo {
-  bottom: 28px;
-  /*left: 45vw;*/
-  position: relative;
-  height: 105px;
+  margin: 70px 0 50px 0;
+  height: 110px;
 }
 
 .anton {
@@ -71,13 +80,19 @@ a:focus {
 }
 
 .circle {
-  margin: 5px;
+  margin: 10px;
   text-align: center;
   color: #fff;
   border: 8px solid #fff;
-  height: 50%;
   border-radius: 50%;
+  padding: 30px 0;
   display: inline;
+}
+
+.interior-circle-container {
+  display: inline;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .blue {
@@ -97,7 +112,21 @@ a:focus {
 }
 
 .small-circle {
-    padding: 5px;
-    font-weight: bold;
-    border-radius: 50%;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.row {
+  margin: 0;
+}
+
+
+
+@media screen and (min-width: 577px) {
+  /*#logo {*/
+    /*bottom: 28px;*/
+    /*position: relative;*/
+    /*height: 105px;*/
+  /*}*/
 }
