@@ -80,19 +80,24 @@ a:focus {
   display: inline;
 }
 
-#blue {
+.blue {
   background-color: #00aba9;
 }
 
-#red {
+.red {
   background-color: #e6563b;
 }
 
-#orange {
+.orange {
   background-color: #eb9d3a;
 }
 
-#green {
+.green {
   background-color: #7cb06c;
 }
 
+.small-circle {
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 50%;
+}
